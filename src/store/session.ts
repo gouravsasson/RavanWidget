@@ -1,7 +1,7 @@
 import { create } from "zustand";
 
 // Zustand store for sessionId
-const useSessionStore = create((set) => ({
+export const useSessionStore = create((set) => ({
   sessionId: null, // Initial value of sessionId
   setSessionId: (id) => set({ sessionId: id }), // Function to set the sessionId
   getSessionId: () => {

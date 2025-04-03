@@ -1,9 +1,9 @@
 import Forkartik from "./components/Forkartik";
-import Ravan from "./components/Ravan";
+import RavanVoiceAI from "./components/Ravan";
 function App() {
   return (
     <>
-      <Ravan />
+      <RavanVoiceAI />
       {/* <Forkartik /> */}
     </>
   );
